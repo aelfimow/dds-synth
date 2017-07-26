@@ -27,7 +27,8 @@ step is 41.343689 Hz.
 
 ## 16-bit R-2R DAC
 Every bit of this DAC has a CMOS 4007 as a line driver, so there are total 16 CMOS
-4007 ICs.
+4007 ICs. There is no low-pass filter at the output, because I underestimated the constraints
+of the operational amplifier.
 ![16-bit R-2R DAC](/images/dds-board-dac.jpg)
 
 ## SDA5708-24B display
