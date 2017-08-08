@@ -2,8 +2,8 @@
 Direct digital synthesizer (DDS) with ATmega8515, Xilinx XC9572 CPLD and SDA5708-24B display.
 This is my home brew hobby DDS synthesizer consisting of different self-made components like
 a 16-bit R-2R digital to analog converter (DAC).
-Due to design failure in the output driver circutry its output lacks of any low-pass filter,
-but it is interesting to see R-2R raw output in action :)
+Due to design failure in the output driver circuitry the output lacks of any low-pass filter,
+but it is interesting to see R-2R DAC raw output in action :)
 
 ## The board
 ![The board](images/dds-board.jpg)
